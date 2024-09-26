@@ -1,0 +1,53 @@
+# Ignore arquivos do ambiente Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+ENV/
+*.envrc
+*.egg-info/
+*.egg
+*.sqlite3
+
+# Ignore arquivos de configuração do Django
+db.sqlite3
+/media/
+/staticfiles/
+/static/
+/*.log
+
+# Ignore arquivos relacionados a migrações do Django
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore arquivos de virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+# Ignore arquivos de configuração de pacotes
+.Python
+*.pyc
+*.pyo
+
+# Ignore arquivos da IDE IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/*.iml
+.idea/modules.xml
+.idea/.name
+.idea/libraries/
+.idea/shelf/
+.idea/tasks.xml
+.idea/jsLibraryMappings.xml
+.idea/dictionaries/
+.idea/scopes/
+
+# Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
